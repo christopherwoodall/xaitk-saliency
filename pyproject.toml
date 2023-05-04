@@ -32,7 +32,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 # <3.10 being dictated currently by smqtk-detection, which could use some TLC to open up.
-python = ">=3.7,<3.10"
+python = ">=3.7,<^3.10"
 numpy = [
     { version = ">=1.21.1", python = "<3.8" },
     { version = ">=1.23.5", python = ">=3.8" }
